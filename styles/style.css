@@ -12,6 +12,8 @@
     --quote-background: #E5E7EB;
     --quote-text: #1F2937;
 
+    --rel-width: 80%;
+
     font-family: "Roboto", sans-serif;
 }
 
@@ -29,13 +31,11 @@ body{
 }
 
 
-.header, .banner-top, .footer{
+.header, .banner-top, .footer, .call-to-action{
 
     background-color: var(--dark-background-color);
     
     color: var(--main-text);
-
-    
 }
 
 .secondary-text{
@@ -74,6 +74,16 @@ body{
     font-style: italic;
 }
 
+.call-to-action h1{
+
+    color: var(--main-text);
+}
+
+
+.call-to-action p{
+
+    color: var(--secondary-text);
+}
 
 /* Header */
 
@@ -91,8 +101,56 @@ body{
 
 /* Call to action */
 
+.call-to-action{
+
+    background-color: var(--button-color);
+    margin: 100px auto;
+    width: var(--rel-width);
+    border-radius: 5px;
+    padding: 50px 100px;
+
+    box-sizing: border-box;
+}
 
 
+.call-to-action h1{
+    margin-bottom: 0px;
+    font-weight: normal;;
+}
+
+.call-to-action p{
+    margin-top: 0px;
+}
+
+.call-to-action .flexbox{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action .flexbox .left{
+
+    flex: 8 1 auto;
+
+}
+
+.call-to-action .flexbox .right{
+
+    flex: 1 1 auto;
+}
+
+.call-to-action .sign-up{
+
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-text);
+    color: var(--main-text);
+    background-color: var(--button-color);
+}
 
 /* Footer */
 
