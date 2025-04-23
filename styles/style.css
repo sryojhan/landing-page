@@ -1,7 +1,5 @@
 
-/* General colors and fonts*/
-
-
+/* General*/
 
 :root{
     --dark-background-color: #1F2937;
@@ -34,13 +32,9 @@ body{
     color: var(--secondary-text);
 }
 
-.banner-top h1{
-    font-size: 48px;
-}
 
-.banner-top p{
-    font-size: 18px;
-}
+
+/* Header */
 
 .header h1{
     font-size: 24px;
@@ -50,28 +44,66 @@ body{
     font-size: 24px;
 }
 
-.main-content h1{
-    font-size: 36px;
-}
-
-.call-to-action h1{
-
-    color: var(--main-text);
-}
-
-
-.call-to-action p{
-
-    color: var(--secondary-text);
-}
-
-/* Header */
-
 /* Banner */
 
 
+.banner-top{
+
+    padding: 200px 0;
+}
+
+.banner-content{
+
+    display: flex;
+    margin: auto;
+    width: var(--rel-width);
+}
+
+.banner-top h1{
+    font-size: 48px;
+}
+
+.banner-top p{
+    font-size: 18px;
+}
+
+.banner-top .sign-up{
+
+    color: var(--main-text);
+    background-color: var(--button-color);
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.banner-content .banner-flex-left{
+
+    flex: 1 1 0;
+}
+
+.banner-content .banner-flex-right{
+
+    flex: 1 1 0;
+}
+
+.image-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #7d848d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Information */
+
+.main-content h1{
+    font-size: 36px;
+}
 
 
 .main-content{
@@ -204,6 +236,18 @@ body{
     border: 2px solid var(--main-text);
     color: var(--main-text);
     background-color: var(--button-color);
+}
+
+
+.call-to-action h1{
+
+    color: var(--main-text);
+}
+
+
+.call-to-action p{
+
+    color: var(--secondary-text);
 }
 
 /* Footer */
