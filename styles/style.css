@@ -21,15 +21,6 @@ body{
     margin: 0px;
 }
 
-.image-element{
-
-    border-radius: 20px;
-    border: 2px solid var(--button-color);
-
-    width: 200px;
-    height: 200px;
-}
-
 
 .header, .banner-top, .footer, .call-to-action{
 
@@ -83,6 +74,48 @@ body{
 /* Information */
 
 
+.main-content{
+    
+    margin: 100px auto;
+    width: var(--rel-width);
+}
+
+.main-content h1{ 
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.information-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.information-container .image-with-information{
+
+    width: 200px;
+    flex: 0 0 auto;
+}
+
+
+.image-element{
+
+    border-radius: 20px;
+    border: 4px solid var(--button-color);
+
+    width: 200px;
+    height: 200px;
+}
+
+.information-element{
+
+    width: 150px;
+    text-align: center;
+    margin: 4px auto;
+    font-weight: 300;
+}
+
+
 /* Cite */
 
 
@@ -133,10 +166,13 @@ body{
 
 .call-to-action h1{
     margin-bottom: 0px;
-    font-weight: normal;;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .call-to-action p{
+
+    font-size: 14px;
     margin-top: 0px;
 }
 
