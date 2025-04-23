@@ -19,6 +19,10 @@ body{
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .header, .banner-top, .footer, .call-to-action{
 
@@ -42,7 +46,28 @@ body{
 
 .header a{
     font-size: 24px;
+    font-weight: 200;
 }
+
+
+
+.header-content{
+
+
+    margin: auto;
+    display: flex;
+    width: var(--rel-width);
+    gap: 30px;
+    align-items: center;
+}
+
+.header-logo{
+
+    
+    flex: 1;
+}
+
+
 
 /* Banner */
 
@@ -75,6 +100,7 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px 40px;
+    cursor:pointer;
 }
 
 .banner-content .banner-flex-left{
@@ -236,6 +262,7 @@ body{
     border: 2px solid var(--main-text);
     color: var(--main-text);
     background-color: var(--button-color);
+    cursor:pointer;
 }
 
 
