@@ -1,0 +1,107 @@
+
+/* General colors and fonts*/
+
+
+
+:root{
+    --dark-background-color: #1F2937;
+    --main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+    --button-color: #3882F6;
+    --information-header: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
+
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.image-element{
+
+    border-radius: 20px;
+    border: 2px solid var(--button-color);
+
+    width: 200px;
+    height: 200px;
+}
+
+
+.header, .banner-top, .footer{
+
+    background-color: var(--dark-background-color);
+    
+    color: var(--main-text);
+
+    
+}
+
+.secondary-text{
+
+    color: var(--secondary-text);
+}
+
+.banner-top h1{
+    font-size: 48px;
+}
+
+.banner-top p{
+    font-size: 18px;
+}
+
+.header h1{
+    font-size: 24px;
+}
+
+.header a{
+    font-size: 24px;
+}
+
+.main-content h1{
+    font-size: 36px;
+}
+
+
+.quote{
+
+    color: var(--quote-text);
+    background-color: var(--quote-background);
+
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+
+/* Header */
+
+/* Banner */
+
+
+
+/* Information */
+
+
+/* Cite */
+
+
+
+
+/* Call to action */
+
+
+
+
+/* Footer */
+
+.footer{
+
+
+    width: 100%;
+
+    margin: 0px;
+    text-align: center;
+    padding: 50px 0;
+}
