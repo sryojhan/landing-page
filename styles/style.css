@@ -163,7 +163,7 @@ body{
 .call-to-action .sign-up{
 
     font-size: 18px;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border-radius: 5px;
     border: 2px solid var(--main-text);
     color: var(--main-text);
